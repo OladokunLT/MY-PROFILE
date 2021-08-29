@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-signup.css">
+    <title>signup</title>
+</head>
+<body>
+    <section id="auth-layout">
+        <div class="form-section">
+            <div class="logo-section">  
+                <img src="./img/kodecamp-logo.png" alt="KodeCamp logo">
+            </div>
+            <div class="form-box">
+                <h1>Sign Up</h1>
+                <form action="">
+                    <div class="form-row">
+                        <div class= "input-box">
+                            <label for="firstname">First Name</label><br>
+                            <input type="text" />
+                        </div>
+                        <div class= "input-box">
+                            <label for="lastname">Last Name</label><br>
+                            <input type="text" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class= "input-box">
+                            <label for="email">Email</label><br>
+                            <input type="email" />
+                        </div>
+                        <div class= "input-box">
+                            <div id="gender-group">
+                                <label for="gender">Gender</label><br>
+                                <div class="gender-div">
+                                    <input type="radio" name="gender" checked/> Male  
+                                    <input type="radio" name="gender" /> Female
+                                    <input type="radio" name="gender"/> Others
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class= "input-box">
+                            <label for="password">Password</label><br>
+                            <input type="password" />
+                        </div>
+                        <div class= "input-box">
+                            <label for="confirm-password">Confirm password</label><br>
+                            <input type="password" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class= "input-box">
+                            <label for="educational level">Educational Level</label><br>                            
+                            <select name="eductional level" id="" type="dropdown">
+                                <option value=""></option>
+                                <option value="">O level</option>
+                                <option value="">Graduate</option>
+                                <option value="">Postgraduate</option>
+                            </select>
+                        </div>
+                        <div class= "input-box">
+                            <label for="experience level">Experience Level</label><br>                            
+                            <select name="experience level" id="" type = "dropdown">
+                                <option value="" > </option>
+                                <option value="">below 1 years </option>
+                                <option value="">1 - 3 years</option>
+                                <option value="">above 3 years</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="textarea-section">
+                        <div class="input-text">
+                            <label for="textarea">Tell us about you</label><br>
+                            <textarea name="" id="" cols="" rows="2" > </textarea>
+                        </div>                        
+                    </div>
+                    
+                    <div class="button-section">
+                        <button>Creat Account</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <!--end of form section -->
+    
+    <!--beginning of form section -->
+            
+        <div class="image-section">
+            <!-- this div contain background image from css -->   
+            <h1> KodeCamp </h1>         
+        </div>
+        <!-- of form section -->
+
+    </section>
+
+</body>
+</html>
