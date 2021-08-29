@@ -84,6 +84,7 @@ h2, h1 {
 }
 .skills {
     color: black;
+    cursor: pointer;
 }
  
 /*font-family: 'Libre Baskerville', serif;*/
